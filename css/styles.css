@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   background-color: #81D2C7;
 }
 
@@ -15,4 +14,8 @@ body {
 .card-details {
   float: left;
   background-color: #FCE694;
+  margin-right: 50px;
+}
+#numberentry {
+  width: 100px;
 }

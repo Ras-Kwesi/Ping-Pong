@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+// User-Interface Logic
 $(document).ready(function() {
-  $(".form-input").
+  $("form#inputentry").submit(function(event) {
+    event.preventDefault();
+    var userInput = parseInt($(""))
+  })
 })
