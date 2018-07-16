@@ -1,14 +1,12 @@
+//User Interface Logic
+$("documents").ready(function(){
+	$("#inputentry").submit(function(event) {
+		var userInput = ($("#numberentry").val());
+    $("#return").text('');
+    number();
+    $("#numberentry").val();
+    event.numberDefault();
+ })	;
+});
 
-
-
-
-
-
-
-// User-Interface Logic
-$(document).ready(function() {
-  $("form#inputentry").submit(function(event) {
-    event.preventDefault();
-    var userInput = parseInt($("#numberentry"))
-  })
-})
+//Business Logic
